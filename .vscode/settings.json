@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "matrixio.h": "c",
+        "matrixprocessing.h": "c",
+        "stdio.h": "c"
+    }
+}
