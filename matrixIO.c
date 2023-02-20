@@ -3,7 +3,7 @@
 void Output(MATRIX *matrix) {
     for (int x = 0; x < matrix->width; x++) {
         for (int y = 0; y < matrix->height; y++) {
-            printf("%f ", matrix->matrix[x * matrix->height + y]);
+            printf("%6.2f ", matrix->matrix[x * matrix->height + y]);
         }
 
         printf("\n");

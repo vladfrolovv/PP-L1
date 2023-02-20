@@ -12,5 +12,8 @@ struct Element {
 typedef struct Element ELEMENT;
 
 ELEMENT* FindElementIn(MATRIX*, double);
+ELEMENT* FindElementInDebug(MATRIX*, double);
+
+void Clear(MATRIX *matrix);
 
 #endif
